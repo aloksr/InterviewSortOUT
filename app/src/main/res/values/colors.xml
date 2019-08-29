@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="color_primary">#234795</color>
+        <color name="color_primary_trans">#772853a4</color>
+        <color name="color_landing_text">#141414</color>
+        <color name="progressbar_color">#007be0 </color>
+        <color name="colorAccent">#507dc4</color>
+        <color name="bg_edit_color">#507dc4</color>
+        <color name="toolbar_color">#234795</color>
+        <color name="blue_card_corner_color">#00447c</color>
+        <color name="white_card_corner_color">#ffffff</color>
+        <color name="toolbar_secondary_color">#234795</color>
+        <color name="tab_bg_color">#ffffff</color>
+        <color name="tab_indicator_color">#299dd5</color>
+        <color name="tab_indicator_inactive">#97cfea</color>
+        <color name="bg_btn">#299dd5</color>
+        <color name="color_helpdesk_detail_text">#b38c57</color>
+        <color name="color_helpdesk_detail_card">#ffcb83</color>
+        <color name="color_helpdesk_attachment">#e9b875</color>
+        <color name="color_helpdesk_card_item">#eaeaea</color>
+        <color name="bg_btn_theme">#299dd5</color>
+        <color name="sign_in_btn_blue">#1b3383</color>
+        <color name="dull_theme">#507dc4</color>
+        <color name="notification_counter">#ffff0000</color>
+        <color name="theme_bg">#9ad1e8</color>
+        <color name="light_blue_attendance">#299dd5</color>
+        <color name="dull_blue">#507dc4</color>
+        <color name="text_color_ranking">#06609e</color>
+        <color name="dim_blue">#e1e8f2</color>
+        <color name="dim_gary">#e3e3e4</color>
+        <color name="course_blue">#496AB4</color>
+        <color name="assesment_blue_option">#F1F1F1</color>
+        <color name="assesment_blue_question">#e6e6e6</color>
+        <color name="uls_yellow">#f3b034</color>
+        <color name="uls_external">#418f8f</color>
+        <color name="uls_orange_progress">#f77700</color>
+        <color name="fab_brightidea_bg_color">#2ab474</color>
+        <color name="fab_helpdesk_bg_color">#14a89d</color>
+        <color name="uls_green_progress">#2cbf00</color>
+        <color name="theme_post_bg">#ffffff</color>
+        <color name="theme_post_title_text">#008ebf</color>
+        <color name="theme_post_header_text">#707070</color>
+        <color name="button_text_color">#ffffff</color>
+        <color name="button_text_color_new">#000000</color>
+        <color name="bg_left_menu">#ffffff</color>
+        <color name="bg_rejected">#494b4a</color>
+        <color name="bg_approved">#1cf97a</color>
+        <color name="bg_draft">#a2a9b0</color>
+        <color name="bg_underreview">#337ab7</color>
+        <color name="bg_submitted">#f9d21c</color>
+        <color name="bg_acknowledged">#494b4a</color>
+        <color name="bg_appreciated">#1f637c</color>
+        <color name="bg_implemented">#6c1f7c</color>
+        <color name="bg_rewarded">#09e42d</color>
+        <color name="bg_executed">#20c997</color>
+        <color name="bg_left_menu_text">#707070</color>
+        <color name="toolbar_text_color">#ffffff</color>
+        <color name="toolbar_icon_color">#ffffff</color>
+        <color name="error_color">#e9915d</color>
+        <color name="progress_theme">#4eaa19</color>
+        <color name="progress_theme_secondary">#bfc2ca</color>
+        <color name="discussion_send_bg">#f1eef1</color>
+        <color name="course_tab_color">#008ebf</color>
+        <color name="course_tab_inactive">#80666666</color>
+        <color name="like_comment_bg">#d1cfcf</color>
+        <color name="month_color">#2585c7</color>
+
+
+        <color name="green_prime">#4eaa19</color>
+        <color name="light_blue">#299dd5</color>
+        <color name="enroll_now_prime">#0a9a3d</color>
+        <color name="blue_tab_prime">#008ebf</color>
+        <color name="blue_dull_prime">#8fd4ec</color>
+        <color name="light_blue_prime">#edf8fb</color>
+        <color name="blue_light_prime">#edf8fb</color>
+        <color name="inactive_tab_prime">#80666666</color>
+        <color name="gray_timeline">#999999</color>
+        <color name="gray_timestamp">#cccccc</color>
+        <color name="yellow_prime">#f27800</color>
+        <color name="red_prime">#ef583a</color>
+
+        <color name="course_blue2">#FF2D3341</color>
+        <color name="light_yellow">#fb9c25</color>
+        <color name="gray_edt_bg">#efefef</color>
+        <color name="black_transparent">#e1000000</color>
+
+        <color name="nav_gray">#222838</color>
+        <color name="black">#000000</color>
+        <color name="gray">#707070</color>
+        <color name="gray_2">#FFB3B2B2</color>
+        <color name="gray_separator">#c4c4c4</color>
+        <color name="gray_trans">#90000000</color>
+        <color name="light_gray1">#f1eef1</color>
+        <color name="light_red">#FF0000</color>
+        <color name="red">#e83c41</color>
+        <color name="light_gray">#d1cfcf</color>
+        <color name="light_gray2">#FFD4D7EA</color>
+        <color name="light_gray3">#e8e8e8e8</color>
+        <color name="light_gray4">#808080</color>
+
+
+        <color name="tutorial_subtitleTextColor">#ffffff</color>
+        <color name="tutorial_titleTextColor">#ffffff</color>
+
+        <color name="slide_1">#4f91ff</color>
+        <color name="slide_2">#fb9c25</color>
+        <color name="slide_3">#5ab55d</color>
+        <color name="slide_4">#ea2d6d</color>
+
+        <color name="tutorial_buttonTextColor">#000000</color>
+        <color name="white">#ffffff</color>
+        <color name="white_opaque">#98ffffff</color>
+        <color name="nav_drawer_blue">#2e4ba2</color>
+        <color name="transparent">#00000000</color>
+        <color name="green">#00FF00</color>
+
+        <color name="coral_blue">#1DAEFA</color>
+        <color name="dark_blue">#125D9D</color>
+        <color name="live_clss_bg">#07224e</color>
+
+        <color name="circleProgressCompleteStartGradient">@color/dark_blue</color>
+        <color name="circleProgressCompleteEndGradient">@color/coral_blue</color>
+        <color name="circleProgressIncompleteStartGradient">@color/light_gray</color>
+        <color name="circleProgressIncompleteEndGradient">@color/light_gray</color>
+
+        <color name="refresh_progress_1">@color/blue_tab_prime</color>
+        <color name="refresh_progress_2">@color/green_prime</color>
+        <color name="refresh_progress_3">@color/yellow_prime</color>
+
+        <color name="certificate_bg">#388dbb</color>
+        <color name="certificate_text_color">#ffffff</color>
+
+        <color name="video_preview_bg">#303030</color>
+
+        <color name="intro_one_bg">#00ffffff</color>
+        <color name="intro_one_text">#ffffff</color>
+
+        <color name="intro_two_bg">#00ffffff</color>
+        <color name="intro_two_text">#ffffff</color>
+
+        <color name="intro_three_bg">#00ffffff</color>
+        <color name="intro_three_text">#ffffff</color>
+
+        <color name="intro_fourth_bg">#00ffffff</color>
+        <color name="intro_fourth_text">#ffffff</color>
+
+        <color name="module_gray">#f1f1f1</color>
+
+        <color name="blue_timeline">#00447c</color>
+        <color name="list_edge_activity_type">#a50259</color>
+        <color name="list_edge_library">#025d5a</color>
+        <color name="list_edge_communications">#ff7e00</color>
+        <!--colors for pre boarding-->
+        <color name="color_00447c">#00447c</color>
+        <color name="pre_boarding_course_name">#4d4d4d</color>
+        <color name="pre_boarding_filter">#004775</color>
+        <color name="color_4d4d4d">#4d4d4d</color>
+        <color name="color_004775">#004775</color>
+        <color name="color_bbbbbb">#bbbbbb</color>
+        <color name="color_9a9a9a">#9a9a9a</color>
+        <color name="color_0a499a">#0a499a</color>
+
+        <!--product training color-->
+        <color name="product_training_title_color">#ffffff</color>
+        <color name="product_training_value_color">#ffffff</color>
+        <color name="product_training_progressbar_bg_color">#000000</color>
+        <!--Toc Page Color-->
+        <color name="toc_content_color">@color/black</color>
+
+
+
+</resources>

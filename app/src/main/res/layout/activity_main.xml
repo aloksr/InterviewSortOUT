@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:ads="http://schemas.android.com/apk/res-auto"
+                tools:context="com.example.interviewsort.activity.MainActivity">
+    <include layout="@layout/toolbar"
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+    <LinearLayout
+            android:id="@+id/lnr"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_home_footer">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCourseList"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/lnr"
+            android:layout_height="wrap_content" />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_below="@+id/rvCourseList"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <com.google.android.gms.ads.NativeExpressAdView
+                android:id="@+id/adView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adUnitId="@string/native_big"
+                ads:adSize="300x250">
+        </com.google.android.gms.ads.NativeExpressAdView>
+    </LinearLayout>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleSmall"
+
+            android:layout_width="@dimen/dimen_36"
+            android:layout_height="@dimen/dimen_36"
+            android:layout_centerInParent="true" />
+
+</RelativeLayout>

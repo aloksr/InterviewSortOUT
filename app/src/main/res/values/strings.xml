@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InterviewSortOut</string>
+
+    <string name="banner_home_footer">ca-app-pub-1546104812613664/2714723362</string>
+    <string name="interstitial_full_screen">ca-app-pub-1546104812613664/3832363910</string>
+
+
+    <string name="appid">ca-app-pub-1546104812613664~9834843096</string>
+    <string name="native_big">ca-app-pub-1546104812613664/3832363910</string>
+</resources>

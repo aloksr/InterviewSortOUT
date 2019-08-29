@@ -1,0 +1,111 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_sp_16">16sp</dimen>
+    <dimen name="dimen_sp_12">12sp</dimen>
+    <dimen name="dimen_sp_13">13sp</dimen>
+    <dimen name="dimen_sp_14">14sp</dimen>
+    <dimen name="dimen_sp_11">11sp</dimen>
+    <dimen name="dimen_sp_10">10sp</dimen>
+    <dimen name="dimen_sp_21">21sp</dimen>
+    <dimen name="dimen_dp_65">65dp</dimen>
+    <dimen name="dimen_dp_100">100dp</dimen>
+
+    <dimen name="course_dashboard_box_size">110dp</dimen>
+    <dimen name="course_dashboard_hieght">90dp</dimen>
+
+    <dimen name="list_item_height">85dp</dimen>
+    <dimen name="module_id_name_tv_szie">16sp</dimen>
+    <dimen name="btn_round_radius">60dp</dimen>
+    <dimen name="btn_blue_text_size">12sp</dimen>
+    <dimen name="btn_blue_padding">6dp</dimen>
+
+    <dimen name="progress_meter_height">25dp</dimen>
+    <dimen name="progress_meter_width">25dp</dimen>
+
+    <dimen name="progress_meter_height_1">38dp</dimen>
+    <dimen name="progress_meter_width_1">38dp</dimen>
+    <dimen name="hor_line_height">1dp</dimen>
+    <dimen name="ver_line_width">1dp</dimen>
+
+    <dimen name="test_summary_item_tv_size">12sp</dimen>
+    <dimen name="test_summary_item_tv_size_2">12sp</dimen>
+    <dimen name="test_name_tv_size">16sp</dimen>
+    <dimen name="test_summary_screen_padding">20dp</dimen>
+    <dimen name="test_summary_right_layout_margin_left">10dp</dimen>
+
+    <dimen name="recycler_view_elevetaion">12dp</dimen>
+    <dimen name="alert_dialog_layout_padding">16dp</dimen>
+    <dimen name="alert_dialog_title_tv_size">14sp</dimen>
+    <dimen name="alert_dialog_msg_tv_size">16sp</dimen>
+    <dimen name="assignment_book_box_height">150dp</dimen>
+
+    <dimen name="test_objective_lable_tv_size">16sp</dimen>
+    <dimen name="no_result_tv_size">16sp</dimen>
+
+    <dimen name="keyboard_height">230dp</dimen>
+
+    <dimen name="drawable_padding">5dp</dimen>
+
+    <dimen name="standard_65">65dp</dimen>
+    <dimen name="standard_115">115dp</dimen>
+    <dimen name="standard_165">165dp</dimen>
+
+    <dimen name="tutorial_skip_margin_bottom_skip">15dp</dimen>
+    <dimen name="tutorial_margin_bottom_dots">20dp</dimen>
+
+    <dimen name="feeds_image_size">35dp</dimen>
+
+
+    <dimen name="survey_numeric_rating_view_width">300dp</dimen>
+    <dimen name="survey_numeric_rating_view_height">150dp</dimen>
+    <dimen name="survey_numeric_rating_seekbar_5_step_margin">14dp</dimen>
+    <dimen name="survey_numeric_rating_seekbar_4_step_margin">22dp</dimen>
+    <dimen name="survey_numeric_rating_seekbar_3_step_margin">34dp</dimen>
+
+    <dimen name="static_landing_card_corners">10dp</dimen>
+    <dimen name="dimen_23">23dp</dimen>
+    <dimen name="dimen_42">42dp</dimen>
+    <dimen name="dimen_36">36dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_14">14dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="preboarding_filter_width">116dp</dimen>
+    <dimen name="preboarding_filter_height">24dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="pre_boarding_collapsing_toolbar_height">220dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_28">28dp</dimen>
+    <dimen name="dimen_180">180dp</dimen>
+    <dimen name="pre_boarding_course_listing_banner_height">140dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="pre_boarding_bottom_bar_height">52dp</dimen>
+    <dimen name="course_list_size">100dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+
+</resources>

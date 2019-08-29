@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.interviewsort">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name=".activity.MyApplication"
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/ic_launcher"
+            android:supportsRtl="true"
+            android:theme="@style/ToolBarAppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+                android:value="true"/>
+
+        <activity
+                android:name=".activity.MainActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/ToolBarAppTheme">
+
+        </activity>
+        <activity
+                android:name=".activity.PostListingActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/ToolBarAppTheme"/>
+        <activity
+                android:name=".activity.WebviewActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/ToolBarAppTheme"/>
+    </application>
+
+</manifest>

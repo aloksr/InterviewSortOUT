@@ -1,0 +1,45 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="Widget.Button.White.BlueText.BlueText.FrameImage" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:radius">@dimen/dimen_2</item>
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="elevation">0dp</item>
+        <item name="background">@android:color/transparent</item>
+        <!--<item name="searchViewStyle">@style/MySearchViewStyle</item>-->
+    </style>
+
+
+    <style name="splashTheme" parent="ToolBarAppTheme">
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+    <style name="ToolBarAppTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

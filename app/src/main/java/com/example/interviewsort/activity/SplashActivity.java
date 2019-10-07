@@ -23,6 +23,7 @@ public class SplashActivity extends BaseActivity {
 
     private void startNextActivity(){
         startActivity(new Intent(this,MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+        finish();
 
     }
 }

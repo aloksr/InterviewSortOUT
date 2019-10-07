@@ -1,5 +1,6 @@
 package com.example.interviewsort.activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -125,7 +126,17 @@ public class PostListingActivity extends BaseActivity implements OnItemCLickList
             intent.putExtra(AppConstant.EXTRAS.WEB_URL, postListAdapter.getItemAt(pos).getUrl());
             startActivity(intent);
 
+        } else if(v.getId() == R.id.ivShare) {
+            share(this, postListAdapter.getItemAt(pos).getUrl());
         }
 
+    }
+
+    public  void share(Activity activity, String text) {
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, text);
+        sendIntent.setType("text/plain");
+        activity.startActivity(sendIntent);
     }
 }

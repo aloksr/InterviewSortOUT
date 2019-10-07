@@ -65,15 +65,18 @@ public class PostListAdapter extends RecyclerView.Adapter<PostListAdapter.ViewHo
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private ImageView ivPostImage;
+        private ImageView ivShare;
         private TextView txvTitle;
         private CardView cardView;
 
         public ViewHolder(View itemView) {
             super(itemView);
+            ivShare = itemView.findViewById(R.id.ivShare);
             ivPostImage = itemView.findViewById(R.id.ivPostImage);
             txvTitle = itemView.findViewById(R.id.tvPostName);
             cardView = itemView.findViewById(R.id.cardView);
             cardView.setOnClickListener(this);
+            ivShare.setOnClickListener(this);
 
         }
 
